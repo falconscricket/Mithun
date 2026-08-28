@@ -29,9 +29,9 @@ BOT_TOKEN = "8831298751:AAEQJXRLalC5SHnkBwM6dwDpv2y_yggnbbo"  # Set a NEW token 
 
 
 # Primary owner. This user has FULL access to every bot feature.
-OWNER_ID = 7612364424
-OWNER_USERNAME = "@mithuntsk"
-OWNER_NAME = "MITHUN TSK"
+OWNER_ID = 7612364424 8777980775
+OWNER_USERNAME = "@mithuntsk @dragontsk"
+OWNER_NAME = "MITHUN DRAGON TSK "
 
 # Additional owners/admins with FULL access (optional).
 # Example: OWNER_IDS = {123456789, 987654321}
@@ -437,7 +437,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     context.user_data.clear()
     return await send_menu(
         update,
-        "🎮 *ALPHA — Garena Account Manager*\n\nSelect an option below:",
+        "🎮 *TSK — Garena Account Manager*\n\nSelect an option below:",
     )
 
 
