@@ -29,8 +29,8 @@ BOT_TOKEN = "8831298751:AAEQJXRLalC5SHnkBwM6dwDpv2y_yggnbbo"  # Set a NEW token 
 
 
 # Primary owner. This user has FULL access to every bot feature.
-OWNER_ID = 7612364424 8777980775
-OWNER_USERNAME = "@mithuntsk @dragontsk"
+OWNER_ID = 7612364424, 8777980775
+OWNER_USERNAME = "@mithuntsk, @dragontsk"
 OWNER_NAME = "MITHUN DRAGON TSK "
 
 # Additional owners/admins with FULL access (optional).
