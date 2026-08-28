@@ -25,8 +25,8 @@ from telegram.ext import (
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # --- CONFIGURATIONS ---
-TOKEN = "YOUR_BOT_TOKEN_HERE"      # <--- Ingal ungal Telegram Bot Token-ai podungal
-OWNER_ID = 123456789               # <--- Ingal ungal Telegram User ID-ai podungal
+TOKEN = "8831298751:AAEQJXRLalC5SHnkBwM6dwDpv2y_yggnbbo"      # <--- Ingal ungal Telegram Bot Token-ai podungal
+OWNER_ID = "7612364424"              # <--- Ingal ungal Telegram User ID-ai podungal
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
