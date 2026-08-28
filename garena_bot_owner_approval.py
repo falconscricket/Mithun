@@ -19,15 +19,15 @@ from telegram.ext import (
 )
 
 # ── Bot token ──────────────────────────────────────────────────────────────────
-BOT_TOKEN = "PASTE_NEW_BOT_TOKEN_HERE"  # Set a NEW token from @BotFather
+BOT_TOKEN = "8831298751:AAEQJXRLalC5SHnkBwM6dwDpv2y_yggnbbo"  # Set a NEW token from @BotFather
 
 # ── PRIVATE BOT + OWNER APPROVAL CONFIG ─────────────────────────────────────
 # Edit ONLY these values.
 # The bot will work ONLY in private chat after the owner approves the user.
 
-OWNER_USER_ID = 123456789
-OWNER_USERNAME = "@your_owner_username"
-OWNER_NAME = "YOUR NAME"
+OWNER_USER_ID = 7612364424
+OWNER_USERNAME = "@mithuntsk"
+OWNER_NAME = "MITHUN"
 
 # Optional: set a separate owner contact username shown to users.
 # Approval is controlled by OWNER_USER_ID, not by username text.
