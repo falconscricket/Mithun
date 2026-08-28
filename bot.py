@@ -151,8 +151,8 @@ async def request_access(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         try:
             keyboard = ReplyKeyboardMarkup(
                 [
-                    [f"✅ /approve {uid}"],
-                    [f"❌ /revoke {uid}"],
+                    [f"  /approve {uid}"],
+                    [f" /revoke {uid}"],
                 ],
                 resize_keyboard=True,
             )
