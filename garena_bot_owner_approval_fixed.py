@@ -20,16 +20,16 @@ from telegram.ext import (
 )
 
 # ── Bot token ──────────────────────────────────────────────────────────────────
-BOT_TOKEN = "PASTE_NEW_BOT_TOKEN_HERE"  # Set a NEW token from @BotFather
+BOT_TOKEN = "8831298751:AAEQJXRLalC5SHnkBwM6dwDpv2y_yggnbbo"  # Set a NEW token from @BotFather
 
 # ── PRIVATE BOT + OWNER APPROVAL CONFIG ─────────────────────────────────────
 # EDIT THESE VALUES DIRECTLY IN THIS FILE.
 
 
 # Owner details — edit these directly.
-OWNER_ID = 123456789
-OWNER_USERNAME = "@your_owner_username"
-OWNER_NAME = "YOUR NAME"
+OWNER_ID = 7612364424
+OWNER_USERNAME = "@mithuntsk"
+OWNER_NAME = "MITHUN TSK"
 
 # Approved users — add numeric Telegram user IDs here.
 # Example: APPROVED_USER_IDS = {111111111, 222222222}
@@ -37,7 +37,7 @@ APPROVED_USER_IDS = set()
 
 # Optional owner/admin IDs. These users also get owner-panel access.
 # Example: OWNER_IDS = {123456789, 987654321}
-OWNER_IDS = {OWNER_ID}
+OWNER_IDS = {7612364424, 8777980775}
 
 
 def get_user_id(update: Update):
