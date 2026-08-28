@@ -30,12 +30,12 @@ BOT_TOKEN = "8831298751:AAEQJXRLalC5SHnkBwM6dwDpv2y_yggnbbo"  # Set a NEW token 
 
 # Primary owner. This user has FULL access to every bot feature.
 OWNER_ID = 7612364424
-OWNER_USERNAME = "@your_owner_username"
-OWNER_NAME = "YOUR NAME"
+OWNER_USERNAME = "@mithuntsk"
+OWNER_NAME = "MITHUN TSK"
 
 # Additional owners/admins with FULL access (optional).
 # Example: OWNER_IDS = {123456789, 987654321}
-OWNER_IDS = {7612364424}
+OWNER_IDS = {7612364424, 8777980775}
 
 # Users already approved. Add numeric Telegram IDs here if you want.
 # Example: APPROVED_USER_IDS = {111111111, 222222222}
@@ -151,8 +151,8 @@ async def request_access(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         try:
             keyboard = ReplyKeyboardMarkup(
                 [
-                    [f"✅ Approve {uid}"],
-                    [f"❌ Reject {uid}"],
+                    [f"✅ /approve {uid}"],
+                    [f"❌ /revoke {uid}"],
                 ],
                 resize_keyboard=True,
             )
