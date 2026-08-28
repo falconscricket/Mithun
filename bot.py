@@ -25,7 +25,7 @@ BOT_TOKEN = "8831298751:AAEQJXRLalC5SHnkBwM6dwDpv2y_yggnbbo"  # Set a NEW token 
 # Edit ONLY these values.
 # The bot will work ONLY in private chat after the owner approves the user.
 
-OWNER_USER_ID = 7612364424
+OWNER_USER_ID = 7612364424, 8334738134
 OWNER_USERNAME = "@mithuntsk"
 OWNER_NAME = "MITHUN"
 
