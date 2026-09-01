@@ -29,13 +29,13 @@ BOT_TOKEN = "8831298751:AAEQJXRLalC5SHnkBwM6dwDpv2y_yggnbbo"  # Set a NEW token 
 
 
 # Primary owner. This user has FULL access to every bot feature.
-OWNER_ID = 7612364424, 8777980775
+OWNER_ID = 7612364424, 8777980775, 8334738134
 OWNER_USERNAME = "@mithuntsk, @dragontsk"
 OWNER_NAME = "MITHUN DRAGON TSK "
 
 # Additional owners/admins with FULL access (optional).
 # Example: OWNER_IDS = {123456789, 987654321}
-OWNER_IDS = {7612364424, 8777980775}
+OWNER_IDS = {7612364424, 8777980775, 8334738134}
 
 # Users already approved. Add numeric Telegram IDs here if you want.
 # Example: APPROVED_USER_IDS = {111111111, 222222222}
